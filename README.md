@@ -20,7 +20,7 @@ Aplikacijo zaženemo z:
 npm start
 ```
 To zažene vgrajeni spletni strežnik na portu 8088. Aplikacijo potem
-naložite iz naslova `http://localhost:8080`.
+naložite iz naslova `http://localhost:8088`.
 
 ## Naloga
 V aplikaciji so strateško postavljeni ukazi `console.log()`, katerih
@@ -30,7 +30,7 @@ razvidno, da se ob zagonu aplikacije vrhnja komponenta App izriše
 trikrat. Nadalje opazimo da ob vsakem dodajanju osebe, ali opravila,
 se celotna aplikacija izriše dvakrat.
 
-Aplikacija torej "trpi" za ponavaljajočim se izrisovanjem. Ali jo je
+Aplikacija torej "trpi" za ponavljajočim se izrisovanjem. Ali jo je
 mogoče optimizirati tako, da se zmanjša potrebno število ponavljajočih
 izrisovanj? Idealno bi bilo, da ne bi bilo nobenih ponavljanj. Ali je
 to mogoče doseči?
