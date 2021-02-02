@@ -26,14 +26,14 @@ export default function App() {
 
     useEffect(() => {
         // začetno stanje: dodamo eno demo osebo
-        setQueues([{ name: 'Jože Pločnik', tasks: ['Špecerija', 'Odnesi smeti'] }]);
+        setQueues([{ name: 'John Doe', tasks: ['Groceries', 'Take out the trash'] }]);
     }, []);
 
     console.log('render: App');
 
     return (
         <div>
-            <div className="title">Listki opravil</div>
+            <div className="title">Tasks</div>
             <AddPerson currentPeople={queues} setPeople={setQueues} />
             <div className="queues-wrapper">
                 {rows.map((row, idx) => <QueueRow key={`${idx}`} idx={idx} row={row} currentPeople={queues} setPeople={setQueues} />)}

@@ -13,9 +13,9 @@ export default function AddPerson({ currentPeople, setPeople }) {
 
     return (
         <div>
-            {'Ime: '}<input type="text" ref={inputRef} />
+            {'Name: '}<input type="text" ref={inputRef} />
             {' '}
-            <button type="button" onClick={handleClick}>Dodaj</button>
+            <button type="button" onClick={handleClick}>Add</button>
         </div>
     );
 }

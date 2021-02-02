@@ -23,7 +23,7 @@ export default function Person({ rowIdx, colIdx, data, currentPeople, setPeople 
                 <div>
                     <input type="text" ref={inputRef}/>
                     {' '}
-                    <button type="button" onClick={handleClick}>{'Dodaj opravilo'}</button>
+                    <button type="button" onClick={handleClick}>{'Add a task'}</button>
                 </div>
             </div>
             {data.tasks.map((task, idx) => <div key={`${idx}`} className="person-task">{task}</div>)}
