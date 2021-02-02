@@ -36,6 +36,10 @@ needed renders is reduced? Ideally the application should be rendered only
 once per an event (application startup, or a state change such as adding a
 person). Is that achievable?
 
+Note that you shouldn't change any CSS; the solution should consist only of
+changes to the JavaScript code, and no HTML and/or CSS (styling) output should
+be modified. Said otherwise: the DOM should remain identical.
+
 Explain how it is possible to reduce the number of renderings per event, or
 why this is impossible. If the reduction is possible, then change the code
 correspondingly and attach it to your answer.

@@ -36,6 +36,10 @@ mogoče optimizirati tako, da se zmanjša potrebno število ponavljajočih
 izrisovanj? Idealno bi bilo, da ne bi bilo nobenih ponavljanj. Ali je
 to mogoče doseči?
 
+Pri tem ni dovoljeno spreminjanje CSS; rešitev se naj sestoji samo iz
+sprememb v kodi JavaScript, rezultirajoča HTML in CSS naj ostaneta
+nespremenjena. Povedano drugače: DOM naj ostane enak.
+
 Razložite kako je mogoče znižati število ponavljanj izrisovanja, oz.
 zakaj to ni mogoče. Če je število ponavljanj mogoče znižati, ustrezno
 spremenite obstoječo kodo in jo priložite k odgovoru.
